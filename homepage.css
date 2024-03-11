@@ -23,7 +23,19 @@ body.main::before {
     background-color: rgba(196, 181, 181, 0.312); /* Semi-transparent background color */
     z-index: 1; /* Ensure the pseudo-element is behind other content */
 }
-.starting h2{
+nav{
+    background-color: black;
+    text-align: center;
+    color: white ;
+}
+.starting h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
     color:beige;
+    text-align: center;
+    background-color: black;
+}
+.starting h4{
+    color: rgb(4, 16, 146);
+    text-align: center;
 }
