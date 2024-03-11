@@ -6,12 +6,10 @@
 
 
 body.main {
-    background-image: url("av3.jpg");
-    background-size: cover;
+    background-image: url("backgroung.jpg");
+    background-size: fill;
     background-position: center;
-    background-repeat: rep;
-    height: 50vh;
-    background-color: rgb(109, 74, 74);
+    height: 1000vh;
 }
 body.main::before {
     content: ""; /* Required for pseudo-elements */
@@ -20,7 +18,7 @@ body.main::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(196, 181, 181, 0.312); /* Semi-transparent background color */
+    background-color: rgba(196, 181, 181, 0.15); /* Semi-transparent background color */
     z-index: 1; /* Ensure the pseudo-element is behind other content */
 }
 nav{
@@ -33,9 +31,45 @@ nav{
     font-weight: 800;
     color:beige;
     text-align: center;
-    background-color: black;
 }
 .starting h4{
-    color: rgb(4, 16, 146);
+    color: rgb(0, 3, 41);
     text-align: center;
 }
+.About h2{
+    color: beige;
+    text-align: center;
+}
+.About h4{
+    color: rgb(184, 141, 184);
+}
+.person {
+    text-align: center;
+}
+.person1 li{
+    color: antiquewhite;
+}
+.person2 li{
+    color: antiquewhite;
+}
+.person3 li{
+    color: antiquewhite;
+}
+.Contact h3{
+    color: azure;
+    
+}
+.Contact h4{
+    color: beige;
+}
+
+.Contact h5{
+    color: antiquewhite;
+}
+
+.footer h6{
+    color: bisque;
+    text-align: center;
+    background-color: black;
+}
+
