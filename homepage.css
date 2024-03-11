@@ -6,10 +6,10 @@
 
 
 body.main {
-    background-image: url("backgroung.jpg");
-    background-size: fill;
-    background-position: center;
-    height: 1000vh;
+    background-image: url(240_F_712718045_efxvmSfnFnsky615lDdvk17fWuTMBCJR.jpg);
+    background-size: cover ;
+    background-position: centre ;
+
 }
 body.main::before {
     content: ""; /* Required for pseudo-elements */
@@ -18,58 +18,96 @@ body.main::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(196, 181, 181, 0.15); /* Semi-transparent background color */
+    background-color: rgba(173, 47, 47, 0.15); /* Semi-transparent background color */
     z-index: 1; /* Ensure the pseudo-element is behind other content */
 }
 nav{
-    background-color: black;
+    background-color: rgb(245, 192, 196);
     text-align: center;
-    color: white ;
+    color: rgb(242, 82, 82) ;
 }
 .starting h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xxx-large;
     font-weight: 800;
-    color:beige;
+    color:rgb( 91, 215);
     text-align: center;
 }
 .starting h4{
     color: rgb(0, 3, 41);
+    font-size: larger;
     text-align: center;
 }
 .About h2{
-    color: beige;
+    color:  rgb(0, 3, 41);
     text-align: center;
 }
 .About h4{
-    color: rgb(184, 141, 184);
+    color: azure;
+    text-align: center;
+    
 }
 .person {
     text-align: center;
-}
-.person1 li{
-    color: antiquewhite;
-}
-.person2 li{
-    color: antiquewhite;
-}
-.person3 li{
-    color: antiquewhite;
-}
-.Contact h3{
-    color: azure;
+    display: flex ;
+    justify-content: space-around;
     
+}
+.person1 {
+    color: rgb(73, 18, 18);
+    flex: 0.5;
+    text-align: center;
+}
+.person2 {
+    
+    color: rgb(73, 18, 18);
+    flex: 0.5;
+    text-align: center;
+}
+.person3 {
+   
+    color: rgb(73, 18, 18);
+    flex: 0.5;
+    text-align: center;
+}
+.about_1{
+    display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.Contact{
+    display: flex;
+    justify-content: space-around; 
+} 
+.Contact h3{
+    color: rgb(68, 212, 212);
+    flex: 1;
+    text-align: center;
 }
 .Contact h4{
     color: beige;
+    flex: 1;
+    text-align: center;
 }
 
 .Contact h5{
     color: antiquewhite;
+    flex: 1;
+    text-align: center;
 }
 
 .footer h6{
     color: bisque;
     text-align: center;
     background-color: black;
+    page-break-after: always ;
 }
 
