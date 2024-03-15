@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alt+F4</title>
     <link rel="stylesheet" href="homepage.css">
+    <script src="home_page_remark.js" defer></script>
 </head>
 <nav>
     <h5> Initial Home Page </h5>
@@ -27,19 +28,22 @@
 
             <img src="amritesh.png";  style="width:225px;height:225px;border-radius: 12%;">
             <br><h2>Hi, I am Amritesh !<br>
-             <button class ="about_1" >About me!</button></h2><br>
+             <button class ="about_1" ><a href="portfolio_amrit_home.html">
+                About me!</a></button></h2><br>
         </div>
         
         <div class="person2">
             <img src="khyati.jpeg"  style="width:225px;height:225px;border-radius: 12%;">
             <br><h2>Hi, I am Khyati !<br>
-            <button class ="about_1">About me!</button><br></h2>
+                <a href="portfolio_khyati_home.html">
+            <button class ="about_1">About me!</a></button><br></h2>
         </div>
         
         <div class="person3">
             <img src="Picsart_24-03-12_01-41-16-601.jpg"  style="width:225px;height:225px;border-radius: 12%;;"><br>
            <h2> Hi, I am Vaibhav !<br>
-            <button class ="about_1">About me!</button><br></h2>
+            <a href="portfolio_vaibhav_home.html">
+            <button class ="about_1">About me!</a></button><br></h2>
         </div>
         </div>
          <br>
@@ -77,7 +81,16 @@
     <h5>Mob. no. 7972523162  <br> Email- <a>vaibhavaswale2804@gmail.com</a>
     </h5></div>
 </div>
+</div>
 </body>
+<br><br>
+<h2>Leave your remarks here so we can contact you !</h2>
+<form id="Form" class="contactForm" onsubmit="submitForm('Form'); return false;"><br>
+    <input type="text" id="Name" placeholder="Your Name"><br>
+    <input type="tel" id="Mobile" placeholder="Your Mobile No."><br>
+    <textarea id="Remarks" placeholder="Your Remarks"></textarea><br>
+    <button type="submit">Submit</button>
+</form>
 <br>
 <br>
 <div class="footer">
