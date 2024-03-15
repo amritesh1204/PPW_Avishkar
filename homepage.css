@@ -6,10 +6,9 @@
 
 
 body.main {
-    background-image: url(240_F_712718045_efxvmSfnFnsky615lDdvk17fWuTMBCJR.jpg);
-    background-size: cover ;
+    background-image: url(FreeImageKit.com_1920x1080_image.jpg);
+    background-size: contain ;
     background-position: centre ;
-
 }
 body.main::before {
     content: ""; /* Required for pseudo-elements */
@@ -18,28 +17,27 @@ body.main::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(173, 47, 47, 0.15); /* Semi-transparent background color */
     z-index: 1; /* Ensure the pseudo-element is behind other content */
 }
 nav{
-    background-color: rgb(245, 192, 196);
+    background-color: rgb(2, 2, 2);
     text-align: center;
-    color: rgb(242, 82, 82) ;
+    color: rgb(255, 255, 255) ;
 }
 .starting h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xxx-large;
     font-weight: 800;
-    color:rgb( 91, 215);
+    color: azure;
     text-align: center;
 }
 .starting h4{
-    color: rgb(0, 3, 41);
+    color: azure;
     font-size: larger;
     text-align: center;
 }
 .About h2{
-    color:  rgb(0, 3, 41);
+    color: azure;
     text-align: center;
 }
 .About h4{
@@ -54,19 +52,18 @@ nav{
     
 }
 .person1 {
-    color: rgb(73, 18, 18);
+    color: azure;
     flex: 0.5;
     text-align: center;
 }
 .person2 {
-    
-    color: rgb(73, 18, 18);
+    color: azure;
     flex: 0.5;
     text-align: center;
 }
 .person3 {
    
-    color: rgb(73, 18, 18);
+    color: azure;
     flex: 0.5;
     text-align: center;
 }
@@ -74,7 +71,7 @@ nav{
     display: inline-block;
   padding: .75rem 1.25rem;
   border-radius: 10rem;
-  color: #e67878;
+  color: azure;
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: .15rem;
@@ -86,27 +83,83 @@ nav{
 .Contact{
     display: flex;
     justify-content: space-around; 
+    color: azure;
 } 
+.contact0{
+    text-align: center;
+    color: azure;
+    flex: 1;
+}
 .Contact h3{
-    color: rgb(68, 212, 212);
+    color: azure;
     flex: 1;
     text-align: center;
 }
 .Contact h4{
-    color: beige;
+    color: azure;
     flex: 1;
     text-align: center;
 }
 
 .Contact h5{
-    color: antiquewhite;
+    color: azure;
     flex: 1;
     text-align: center;
 }
-
-.footer h6{
-    color: bisque;
+.contactref{
     text-align: center;
+    color: azure;
+    flex: 1;
+}
+/* Feedback form styling */
+
+/* Feedback form styling */
+.contactForm {
+    margin: 0 auto;
+    max-width: 500px; /* Adjust the max-width as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.contactForm textarea {
+    width: 100%;
+    height: 50px; /* Adjust the height as needed */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.contactForm button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #010100;
+    color: white;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer {
     background-color: black;
-    page-break-after: always ;
+}
+.footer h6 {
+    text-align: center;
+    color: white;
 }
