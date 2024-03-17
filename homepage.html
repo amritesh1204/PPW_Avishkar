@@ -6,17 +6,32 @@
     <title>Alt+F4</title>
     <link rel="stylesheet" href="homepage.css">
     <script src="home_page_remark.js" defer></script>
+    <script src="homepage_nav.js" defer></script>
 </head>
 <nav>
     <h5> Initial Home Page </h5>
+    <button class="nav-btn" id="team-btn">Team Members</button>
+    <div class="popup-content" id="team-popup">
+        Amritesh Singh<br> Khyati Jain <br> Vaibhav Sanjiv Aiswale
+    </div>
+    
+    <button class="nav-btn" id="reg-btn">Reg. No.</button>
+    <div class="popup-content" id="reg-popup">
+        Amritesh- 20237008<br>Khyati - 20237023<br>Vaibhav - 20237057
+    </div>
+    
+    <button class="nav-btn" id="address-btn">Address</button>
+    <div class="popup-content" id="address-popup">
+        Amritesh Singh, Room no. 122, SVBH<br>Khyati Jain, Room no. 418, DJGH<br>Vaibhav Aswale, Room no. 119, SVBH
+    </div>
+    
 </nav>
 <br><br>
 <body class="main">
     <div class="starting">
-    <h1>Team Alt+F4</h1>
-    <br>
-    <h4>Mechathon under Mechrocosm</h4>
-    <h4>CulravAvishkar 2k24</h4>
+        <h1 class="popup-text">Team Alt+F4</h1>
+        <h4 class="popup-text">Mechathon under Mechrocosm</h4>
+        <h4 class="popup-text">CulravAvishkar 2k24</h4>
     </div>
     <br>
     
@@ -25,22 +40,27 @@
     
     <div class="person">
         <div class="person1">
-
-            <img src="amritesh.png";  style="width:225px;height:225px;border-radius: 12%;">
+            <div class="img">
+            <img src="amritesh.png">
+        </div>
             <br><h2>Hi, I am Amritesh !<br>
              <button class ="about_1" ><a href="portfolio_amrit_home.html">
                 About me!</a></button></h2><br>
         </div>
         
         <div class="person2">
-            <img src="khyati.jpeg"  style="width:225px;height:225px;border-radius: 12%;">
+            <div class="img">
+            <img src="khyati.jpeg">
+            </div>
             <br><h2>Hi, I am Khyati !<br>
                 <a href="portfolio_khyati_home.html">
             <button class ="about_1">About me!</a></button><br></h2>
         </div>
         
         <div class="person3">
-            <img src="Picsart_24-03-12_01-41-16-601.jpg"  style="width:225px;height:225px;border-radius: 12%;;"><br>
+            <div class="img">
+            <img src="Picsart_24-03-12_01-41-16-601.jpg">
+            </div><br>
            <h2> Hi, I am Vaibhav !<br>
             <a href="portfolio_vaibhav_home.html">
             <button class ="about_1">About me!</a></button><br></h2>
