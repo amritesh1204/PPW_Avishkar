@@ -147,3 +147,6 @@ footer {
         width: 90%; /* Adjusted for better usability on smaller screens */
     }
 }
+.social-links i {
+    font-size: 24px; /* Adjust the size as needed */
+}
