@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block; /* Ensure it's centered properly */
+    display: inline-block; 
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 }
 
 form {
-    text-align: left; /* Align form elements to the left */
+    text-align: left; 
 }
 
 label {

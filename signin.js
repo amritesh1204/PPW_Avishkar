@@ -20,15 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 body: JSON.stringify({ name, mobile }),
             });
 
-            // Check if the HTTP response status is "OK" before parsing as JSON
             if (response.ok) {
                 const data = await response.json();
                 console.log(data);
                 window.location.href = "homepage.html";
             } else {
-                // Log the error or display a message to the user
+               
                 console.error("Error:", response.statusText);
-                // Optionally, handle different response statuses or show a specific message
+                
                 alert("An error occurred. Please try again.");
             }
         } catch (error) {

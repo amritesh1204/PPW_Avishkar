@@ -14,26 +14,26 @@ const connectDB = async () => {
     console.log('MongoDB Connected');
   } catch (err) {
     console.error('Failed to connect to MongoDB', err.message);
-    // Exit process with failure
+  
     process.exit(1);
   }
 };
 
 connectDB();
 
-// Use Express JSON Middleware
+
 app.use(express.json());
 
-// Create Schema with basic validation
+
 const UserSchema = new mongoose.Schema({
   name: { type: String, required: true },
   mobile: { type: String, required: true, match: [/^\d{10}$/, 'Please enter a valid mobile number'] }
 });
 
-// Create Model
+
 const User = mongoose.model('User', UserSchema);
 
-// Routes
+
 app.post('/signin', async (req, res) => {
   try {
     const { name, mobile } = req.body;
